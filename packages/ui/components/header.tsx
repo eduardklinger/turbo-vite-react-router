@@ -1,7 +1,9 @@
+import React from "react";
+
 export function Header({ title }: { title: string }) {
-  return `
+  return (
     <header id="header">
-      <h1>${title}</h1>
+      <h1>{title}</h1>
     </header>
-    `;
+  );
 }

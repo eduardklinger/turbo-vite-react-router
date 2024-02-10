@@ -8,6 +8,9 @@
     "serve": {
       "dependsOn": ["^serve"]
     },
+    "clean": {
+      "dependsOn": ["^clean"]
+    },
     "lint": {},
     "dev": {
       "cache": false,
